@@ -90,5 +90,13 @@ sequenceDiagram
     participant browser
     participant server
 
-    Note over browser,server: À compléter
+    Note right of browser: The user clicks Save. The JavaScript prevents the default form submission, adds the note to the list and re-renders the notes
+
+    browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+    Note right of browser: Payload: {"content": "...", "date": "..."} as JSON
+    activate server
+    server-->>browser: 201 Created {"message":"note created"}
+    deactivate server
+
+    Note right of browser: No redirect and no page reload: the browser stays on the same page
 ```
