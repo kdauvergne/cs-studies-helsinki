@@ -1,14 +1,14 @@
-# Full Stack Open — Exercices
+# Full Stack Open — Exercises
 
-Mes soumissions pour le cours [Full Stack Open](https://fullstackopen.com/fr/) de l'Université d'Helsinki.
+My submissions for the [Full Stack Open](https://fullstackopen.com/en/) course from the University of Helsinki.
 
-## Organisation
+## Structure
 
-Chaque partie du cours a son propre dossier, et chaque application a son propre sous-dossier :
+Each part of the course has its own folder, and each application has its own subfolder:
 
 ```
 cs-studies-helsinki/
-├── part0/            # Diagrammes de séquence (Markdown + Mermaid)
+├── part0/            # Sequence diagrams (Markdown + Mermaid)
 ├── part1/
 │   ├── courseinfo/
 │   ├── unicafe/

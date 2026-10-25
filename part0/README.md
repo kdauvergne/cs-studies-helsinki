@@ -1,12 +1,12 @@
-# Partie 0 — Fondamentaux des applications web
+# Part 0 — Fundamentals of Web apps
 
-Cours : <https://fullstackopen.com/fr/part0>
+Course: <https://fullstackopen.com/en/part0>
 
-Les exercices 0.1 à 0.3 sont des lectures (HTML, CSS, formulaires HTML) et n'ont rien à rendre.
+Exercises 0.1 to 0.3 are reading assignments (HTML, CSS, HTML forms) with nothing to submit.
 
-## 0.4 — Nouvelle note (version classique)
+## 0.4 — New note diagram
 
-Diagramme de ce qui se passe quand l'utilisateur crée une note sur <https://studies.cs.helsinki.fi/exampleapp/notes>.
+What happens when the user creates a new note on <https://studies.cs.helsinki.fi/exampleapp/notes>.
 
 ```mermaid
 sequenceDiagram
@@ -46,9 +46,9 @@ sequenceDiagram
     Note right of browser: The browser executes the callback function that renders the notes, including the new one
 ```
 
-## 0.5 — Application monopage (SPA)
+## 0.5 — Single page app diagram
 
-Diagramme de ce qui se passe quand l'utilisateur ouvre <https://studies.cs.helsinki.fi/exampleapp/spa>.
+What happens when the user opens <https://studies.cs.helsinki.fi/exampleapp/spa>.
 
 ```mermaid
 sequenceDiagram
@@ -81,9 +81,9 @@ sequenceDiagram
 
 ```
 
-## 0.6 — Nouvelle note dans la SPA
+## 0.6 — New note in Single page app diagram
 
-Diagramme de ce qui se passe quand l'utilisateur crée une note dans la version SPA.
+What happens when the user creates a new note in the single page app version.
 
 ```mermaid
 sequenceDiagram

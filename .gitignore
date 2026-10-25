@@ -1,4 +1,4 @@
-# Dépendances
+# Dependencies
 node_modules/
 
 # Builds
@@ -6,7 +6,7 @@ dist/
 build/
 .vite/
 
-# Variables d'environnement (ne jamais commiter de secrets)
+# Environment variables (never commit secrets)
 .env
 .env.*
 !.env.example
@@ -18,12 +18,12 @@ yarn-error.log*
 pnpm-debug.log*
 *.log
 
-# Tests / couverture
+# Tests / coverage
 coverage/
 test-results/
 playwright-report/
 
-# OS / éditeurs
+# OS / editors
 .DS_Store
 Thumbs.db
 .vscode/*
