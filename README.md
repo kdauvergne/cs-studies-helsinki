@@ -7,7 +7,7 @@ Mes soumissions pour le cours [Full Stack Open](https://fullstackopen.com/fr/) d
 Chaque partie du cours a son propre dossier, et chaque application a son propre sous-dossier :
 
 ```
-fullstackopen/
+cs-studies-helsinki/
 ├── part0/            # Diagrammes de séquence (Markdown + Mermaid)
 ├── part1/
 │   ├── courseinfo/
